@@ -1,8 +1,11 @@
-let xpPlayer = 0;
+let xpPlayer = 1;
 let nomeDoPlayer = "BaiacudeCueca";
 let xpMaximo = 10001;
 let rankPlayer = " ";
-if (xpPlayer >= 0 && xpPlayer <= 1000){
+if (xpPlayer <= 0 ){
+rankPlayer = "Sem Rank!"
+}
+else if (xpPlayer >= 0 && xpPlayer <= 1000){
 rankPlayer = "Ferro!"
 }
 else if (xpPlayer > 1000 && xpPlayer <=2000){
