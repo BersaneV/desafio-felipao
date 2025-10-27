@@ -1,4 +1,4 @@
-let xpPlayer = 1;
+let xpPlayer = 1343;
 let nomeDoPlayer = "BaiacudeCueca";
 let xpMaximo = 10001;
 let rankPlayer = " ";
